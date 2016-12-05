@@ -8,9 +8,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D82E078-1F50-4C3D-A76D-4D27871193F9}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KingLion.WebUtils.Pinyin", "src\KingLion.WebUtils.Pinyin\KingLion.WebUtils.Pinyin.xproj", "{7499DB99-A8DE-4789-A81E-31ADF3164F11}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KingLion.WebUtils.NPinyin", "src\KingLion.WebUtils.Pinyin\KingLion.WebUtils.NPinyin.xproj", "{7499DB99-A8DE-4789-A81E-31ADF3164F11}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Test", "src\Test\Test.xproj", "{451F0E34-D4E1-46DC-B530-9254595C902A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +25,16 @@ Global
 		{7499DB99-A8DE-4789-A81E-31ADF3164F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7499DB99-A8DE-4789-A81E-31ADF3164F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7499DB99-A8DE-4789-A81E-31ADF3164F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{451F0E34-D4E1-46DC-B530-9254595C902A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451F0E34-D4E1-46DC-B530-9254595C902A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451F0E34-D4E1-46DC-B530-9254595C902A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451F0E34-D4E1-46DC-B530-9254595C902A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7499DB99-A8DE-4789-A81E-31ADF3164F11} = {42E07FC2-596F-48E2-AB7E-10EF5861370B}
+		{451F0E34-D4E1-46DC-B530-9254595C902A} = {42E07FC2-596F-48E2-AB7E-10EF5861370B}
 	EndGlobalSection
 EndGlobal

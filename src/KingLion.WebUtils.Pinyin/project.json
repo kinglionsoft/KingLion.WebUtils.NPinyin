@@ -1,4 +1,7 @@
 ﻿{
+  "title": "KingLion.WebUtils.NPinyin",
+  "copyright": "MIT",
+  "description": "NPinyin的.Net Core版本",
   "version": "1.0.0-*",
 
   "dependencies": {
